@@ -1,0 +1,98 @@
+/* Remove Defaults */
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+header,nav,article,section,footer,aside{
+	display:block;
+}
+
+.fullpage{
+	width: 1000px;
+	margin: 0px auto;
+	font-family: arial, tahoma;
+}
+
+.clear{
+	clear: both;
+}
+
+.logo{
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+
+.topnav{
+	float: left;
+	width: 80%;
+}
+
+.topnav a{
+	text-decoration: none;
+	color: black;
+	font-size: x-large;
+	font-family: arial;
+}
+
+.topnav a:hover{
+	color:white;
+	background-color: black;
+	
+}
+
+.topnav ul li{
+	float: left;
+	padding: 39px 5px
+}
+
+.leftsection{
+	float: left;
+	width: 70%
+}
+
+.leftsection article{
+	border:5px solid black;
+	margin-right: 10px;
+	padding: 10px
+}
+
+.rightaside{
+	float: left;
+}
+
+.rightaside div{
+	border:5px solid black;
+	margin: 0px 0px 10px 0px; /* TLBR */
+	padding: 10px;
+}
+
+.rightaside a{
+	text-decoration: none;
+	font-family: arial;	
+}
+
+.pagefooter{
+	clear: both;
+	text-align: center;
+
+}
+
+.formcntct legend{
+	font-size: small;
+	color: rgb(130,130,130);
+}
+
+.formcntct fieldset{
+	width: 270px;
+}
+
+.formcntct label{
+	float: left;
+	width: 110px;
+/* text-align: right;
+   margin: 5px;
+ */
+}

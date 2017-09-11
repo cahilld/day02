@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="fullpage">
+		<header>
+			<img src="logo.png" alt="logo area" class="logo">
+			<nav class="topnav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contactus.html">Contact</a></li>
+					<li><a href="signup.html">Sign Up</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="clear"></div>
+
+		<section class="leftsection">
+			<article>
+				<header>
+					<h2>Contact</h2>
+					<h3>Sub header</h3>
+				</header>
+					<form class="formcntct" action="" method="get">
+						<fieldset>
+							<legend>Login details</legend>
+								<label for="uname">Username:</label><input type="text" name="uname" id="uname" maxlength="10" value="Up to 20 characters" size="20"> <br>
+								<label for="pword">Password:</label><input type="Password" name="pword" id="pword" maxlength="10" value="" size="20"> <br>
+						</fieldset>
+							
+						<fieldset>
+							<legend>Checkbox list</legend>
+								<!-- checked="checked" sets a default value to be checked for checkboxes and radio  -->
+								<label for="checkbox1">Checkbox 1:</label><input type="Checkbox" name="checkbox1" id="checkbox1" value="chkbx1" checked="checked"> <br>
+								<label for="checkbox2">Checkbox 2:</label><input type="Checkbox" name="checkbox2" id="checkbox2" value="chkbx2"> <br>
+						</fieldset>
+
+						<fieldset>
+							<legend>Radio Button List</legend>
+								<!-- Make the name the same so only 1 option can be selected -->
+								<label for="radbtn1">Radio Button 1</label><input type="radio" name="radbtn1" id="radbtn1" value="radbtn1"> <br>
+								<label for="radbtn2">Radio Button 2</label><input type="radio" name="radbtn1" id="radbtn2" value="radbtn2"> <br>
+						</fieldset>
+
+						<fieldset>
+						<legend>Select List:</legend>
+							<select name="contactselect" multiple size="7">
+									<option value="option0" selected="selected">Please select an option</option>
+								<optgroup label="optgrplbl1">
+									<option value="option1">Option 1</option>
+									<option value="option2">Option 2</option>
+								</optgroup>
+									<optgroup label="optgrplbl2">
+									<option value="option3">Option 3</option>
+									<option value="option4">Option 4</option>
+								</optgroup>
+							</select> <br>
+						</fieldset>
+
+						<fieldset>
+							<legend>Text Area:</legend>
+								<textarea name="areatext" rows="5" cols="20"></textarea> <br>
+						</fieldset>
+
+						Button:<br>
+							<input type="button" value="Button Text"> <br>
+						Upload:<br>
+							<input type="file"> <br>
+						Submit Button <br>
+							<input type="submit" value="Submit"> <br>
+						Reset Button <br>
+							<input type="reset" value="Reset">
+
+					</form>
+				<footer>Article footer</footer>
+			</article>
+		</section>
+
+		<aside class="rightaside">
+			<div>
+				<h3>Social Media Links</h3>
+				<ul>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">Instagram</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Related Articles</h3>
+				<article>
+					<h4>Article</h4>
+					<p>Summary</p>
+				</article>
+				<article>
+					<h4> Article </h4>
+					<p>Summary</p>
+				</article>
+				<footer>Article Footer</footer>
+			</div>
+		</aside>
+
+		<footer class="pagefooter">
+			<p>&copy; Copyright Desmond Cahill</p>
+		</footer>
+	</div>
+</body>
+</html>
