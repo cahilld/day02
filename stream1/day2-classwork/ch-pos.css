@@ -1,0 +1,48 @@
+	.box {
+		background-color: gray;
+		color: red;
+	}
+
+	.saleImage {
+        position:absolute;
+        z-index: 100;
+        right:0px;
+        top:0px;
+	}
+
+	#header {
+		text-align: center;
+		width: 960px;
+		height: 100px;
+		z-index: 99;
+	}
+
+	h1 {
+		padding-top: 20px;
+	}
+	.foot{
+	    width: 100%;
+	    height:100px;
+	    position:fixed;
+	    z-index: 105;
+	    bottom:0;
+	}
+	
+	#container{
+	    width: 800px;
+	    position:relative;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+	.pleft{
+	   width: 360px;
+	   display: inline-block;
+	   position:relative;
+	   padding-bottom: 100px;
+	}
+	.pright{
+	   width: 360px;
+	   display: inline-block;
+	   position:relative;
+	   padding-bottom: 100px;
+	}

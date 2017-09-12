@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Box Model</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+
+			body{
+				font-family: roboto;
+			}
+
+			#container{
+				margin-right:auto; /*center container with margins left & right set to auto*/
+				margin-left:auto;
+				width:600px;	/*to center an element it must have a fixed width*/
+				height: 400px;
+				background-color:#AA4639;
+				border-radius: 10px;
+				padding: 10px;
+				font-size: 0;	/* remove inline-block spacing*/
+				position:relative;
+				top:75px;
+			}
+
+			.box1{
+				display: inline-block;
+				width: 220px;
+				height: 150px;
+				text-align: center;
+				background-color: #81BBC9;
+				margin:10px;
+				border-radius:10px;
+				font-size: 35px;
+				position:relative;
+				top:-90px;
+				right:130px;
+			}
+			.box2{
+				display: inline-block;
+				width: 220px;
+				height: 150px;
+				text-align: center;
+				background-color: #81BBC9;
+				margin:10px;
+				border-radius:10px;
+				font-size: 35px;
+				position:relative;
+				top:-90px;
+				left:240px;
+			}
+			.box3{
+				display: inline-block;
+				width: 220px;
+				height: 150px;
+				text-align: center;
+				background-color: #81BBC9;
+				margin:10px;
+				border-radius:10px;
+				font-size: 35px;
+				position:relative;
+				top:150px;
+				right:130px;
+			}
+			.box4{
+				display: inline-block;
+				width: 220px;
+				height: 150px;
+				text-align: center;
+				background-color: #81BBC9;
+				margin:10px;
+				border-radius:10px;
+				font-size: 35px;
+				position:relative;
+				top:150px;
+				left:240px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="box1"><h2>1</h2></div>
+			<div class="box2"><h2>2</h2></div>
+			<div class="box3"><h2>3</h2></div>
+			<div class="box4"><h2>4</h2></div>
+
+		</div>
+	</body>
+</html>

@@ -7,32 +7,41 @@
     border: 0px;
     padding: 0px;    
     width: 100%;
-    height:100px;
+    height:50px;
     background-color: navy;
     color:white;
     text-align: center;
+    font-size: 40;
 }
 #container{
-    margin: 10px, 0px, 10px, 0px;
+    margin: 0px, 0px, 0px, 0px;
     border: 0px;
-    padding: 3px;
-    text-size: 0;
+    padding: 0px;
     background-color: navy;
+    box-sizing:border-box;-webkit
+	box-sizing:border-box;-mos
 }
 .sideleft{
-    width: 20%;
+    width: 19%;
     height:200px;
     background-color: black;
     color: white;
     display: inline-block;
+    text-align: center;
+    font-size: 16;
 }
 .maincontent{
-    width: 79.5%;
+    width: 78%;
     height:200px;
     background-color: black;
     color: white;
     display: inline-block;
+    text-align: center;
+    font-size: 16;    
 }
 .footer{
+    width:100%;
+    height:50px;
+    background-color: navy;
     
 }
