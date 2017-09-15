@@ -1,0 +1,3 @@
+.fltrvid{
+    -webkit-filter: hue-rotate(95deg) contrast(1.25) sepia(.5) brightness(.75);
+}

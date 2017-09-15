@@ -1,0 +1,38 @@
+.owl{
+    float: left;
+    margin: 0 25px 25px 25px;
+    -webkit-filter: hue-rotate(65deg) grayscale(.7);
+}
+.frog{
+    float: right;
+    margin: 0 25px 25px 25px;
+    -webkit-filter: hue-rotate(300deg) contrast(0.95);
+}
+.leftdiv{
+    width:400px;
+    background-image: url("img/woodbg.jpg");
+    color:white;
+    display: inline-block;
+    padding: 10px;
+}
+.rightdiv{
+    width:400px;
+    background-image: url("img/forestbg.jpg");
+    color:white;
+    display: inline-block;
+    padding: 10px;
+}
+.maindiv{
+    width: 900px;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+/*@media screen and (min-width: 900px){*/
+/*    .maindiv{*/
+/*        width: 900px;*/
+/*    }*/
+/*    .rightdiv{*/
+/*        color:white;*/
+/*    }*/
+/*
+}
