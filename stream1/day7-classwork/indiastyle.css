@@ -1,0 +1,94 @@
+h1{
+	color:white;
+	font-size: 3rem;
+	text-shadow: 2px 2px firebrick;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+h2{
+	color:white;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px firebrick;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+
+
+footer{
+	text-decoration: none;
+	font-family: Arial;
+	color:white;
+	font-size: 1rem;
+	text-align:center;
+}
+nav{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items:stretch;
+    border-radius: 10px;
+    padding: 0;	
+}
+.divlogo{
+    /*display: flex;*/
+    /*align-items:center;*/
+    /*width:100%;*/
+    /*justify-content:center;*/
+    /*flex-direction: column;*/
+}
+article a img{
+	border-radius: 20px;
+}
+nav{
+	margin: 30px auto;
+	width: 100%;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	align-items:stretch;
+	border-radius: 10px;
+	padding: 0;	
+}
+#body{
+	background-color: black;
+
+}		
+nav a{
+	text-decoration: none;
+	color: white;
+	/*flex:1;*/
+	height: 10px;
+	font-family: 'Vidaloka', serif;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 2rem;
+	border-bottom:1px solid #fff;
+	text-shadow: 2px 2px firebrick;
+}
+#mainpage{
+		/*display: flex;*/
+		justify-content:center;
+		/*flex-direction: column;*/
+		align-items:center;
+		width:100%;
+}
+/*section{*/
+/*	color:white;*/
+/*	text-align: center;*/
+/*	flex:1;*/
+/*	flex-wrap:wrap;*/
+
+/*}*/
+ul{
+	font-size:2rem;
+}
+@media screen and (min-width: 700px){
+	/*nav{*/
+	/*	flex-direction:row;*/
+	/*}*/
+	/*nav a{*/
+	/*	flex:1;*/
+	/*}*/
+			
+			
+}
