@@ -1,0 +1,18 @@
+.nav-bar{
+    background-color:darkgreen;
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: yellow;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: red;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: red;
+}
