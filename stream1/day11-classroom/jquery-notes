@@ -1,0 +1,32 @@
+//Jquery events
+click
+keydown
+keyup
+
+// like hover - doesnt work on mobile
+mouseenter
+mouseleave
+
+scroll
+keypress
+focus
+resize
+blur
+
+show
+hide
+toggle(5000)
+slideDown
+slideUp
+slideToggle
+fadeIn
+fadeOut
+fadeToggle
+fadeToggle
+
+//two ways of working with event handlers
+$("td").click(function(){
+})
+$("td").on("click",function(){
+})
+
