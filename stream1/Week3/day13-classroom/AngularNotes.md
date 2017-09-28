@@ -18,5 +18,13 @@ code
 
 3. ### View - html templates
 #### Fromtend
-
+```HTML
+<html>
+<title>html templates</title>
+<head>
+</html>
+<body>
+</body>
+</html>
+```
 [Google](https://www.google.com)
